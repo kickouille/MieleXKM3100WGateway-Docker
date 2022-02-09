@@ -1,0 +1,3 @@
+[submodule "MieleXKM3100WGateway"]
+	path = MieleXKM3100WGateway
+	url = https://github.com/kickouille/MieleXKM3100WGateway.git
