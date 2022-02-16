@@ -3,7 +3,7 @@ version: "3.3"
 services:
   xkm3100gw:
     image: kickouille/mielexkm3100wgateway
-    restart: always
+    restart: unless-stopped
 #    environment:
 #      - TZ=Europe/Zurich
     network_mode: host
@@ -15,7 +15,7 @@ services:
       GROUPKEY: "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
       GROUPID: "1111111111111111"
       PORT: 3000
-      DEBUG: "flase"
+      DEBUG: "flash"
 
 #networks:
 #  xkm3100gw-net:
