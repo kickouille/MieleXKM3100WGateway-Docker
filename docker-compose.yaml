@@ -1,0 +1,19 @@
+services:
+  xkm3100gw:
+    image: kickouille/mielexkm3100wgateway
+    restart: always
+#    environment:
+#      - TZ=Europe/Zurich
+    network_mode: host
+#    ports:
+#      - "3000:3001"
+#    networks:
+#      - node-red-net
+    environment:
+      GROUPKEY: "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+      GROUPID: "1111111111111111"
+      PORT: 3001
+      DEBUG: true
+
+#networks:
+#  xkm3100gw-net:
