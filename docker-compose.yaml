@@ -1,3 +1,5 @@
+version: "3.3"
+
 services:
   xkm3100gw:
     image: kickouille/mielexkm3100wgateway
